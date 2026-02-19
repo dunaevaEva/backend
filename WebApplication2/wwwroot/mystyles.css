@@ -113,7 +113,7 @@ label {
 
 section {
     border-radius: 10px;
-    border: 1px solid silver;
+    backdrop-filter: blur(20px);
     
     padding: 10px;
     margin: 10px;
