@@ -27,6 +27,12 @@ var messages = new List<Message>();
 
 app.MapGet("/forum", () => messages);
 
+app.MapGet("/forum/s", (int id, string author, string text) =>
+{
+    return Results.Json(new { id, author, text });
+});
+
+
 app.MapPost("/forum", (Message message) =>
 {
     message.Id = messages.Count == 0 ? 1 : messages.Max(m => m.Id) + 1;
