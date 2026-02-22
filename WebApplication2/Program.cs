@@ -40,7 +40,14 @@ app.MapPost("/forum", (Message message) =>
     return Results.Created($"/forum/{message.Id}", message);
 });
 
-app.MapPut("/forum", (Message message) =>
+app.MapPost("/forum/p", (string author, Message message) =>
+{
+    message.Id = messages.Count == 0 ? 1 : messages.Max(m => m.Id) + 1;
+    message.Author = author;
+    messages.Add(message);
+});
+
+app.MapPut("/forum/{id:int}", (int id, UpdateMessage message) =>
 {
     var replace = messages.FirstOrDefault(m => m.Id == message.Id);
     if (replace != null)
