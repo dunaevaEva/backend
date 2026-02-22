@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "Hash": "xuIm5ATojmb9lPQsMmiAj9whjCexUi9NenGy9iOfE5k=",
+  "Source": "WebApplication2",
+  "BasePath": "_content/WebApplication2",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "WebApplication2/wwwroot",
+      "Source": "WebApplication2",
+      "ContentRoot": "/Users/evadunaeva/RiderProjects/WebApplication2/WebApplication2/wwwroot/",
+      "BasePath": "_content/WebApplication2",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/evadunaeva/RiderProjects/WebApplication2/WebApplication2/wwwroot/forum.html",
+      "SourceId": "WebApplication2",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/evadunaeva/RiderProjects/WebApplication2/WebApplication2/wwwroot/",
+      "BasePath": "_content/WebApplication2",
+      "RelativePath": "forum.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/forum.html"
+    },
+    {
+      "Identity": "/Users/evadunaeva/RiderProjects/WebApplication2/WebApplication2/wwwroot/mystyles.css",
+      "SourceId": "WebApplication2",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/evadunaeva/RiderProjects/WebApplication2/WebApplication2/wwwroot/",
+      "BasePath": "_content/WebApplication2",
+      "RelativePath": "mystyles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/mystyles.css"
+    },
+    {
+      "Identity": "/Users/evadunaeva/RiderProjects/WebApplication2/WebApplication2/wwwroot/static.html",
+      "SourceId": "WebApplication2",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/evadunaeva/RiderProjects/WebApplication2/WebApplication2/wwwroot/",
+      "BasePath": "_content/WebApplication2",
+      "RelativePath": "static.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/static.html"
+    }
+  ]
+}
