@@ -62,14 +62,16 @@ app.MapPut("/forum/{id:int}", (int id, UpdateMessage message) =>
 
 app.MapPatch("/forum", (Message message) =>
 {
-    var replace = messages.FirstOrDefault(m => m.Id == message.Id);
-    if (replace != null)
-        return Results.NotFound();
-    if (message.Author != null)
-    replace.Author = message.Author;
-    if (message.Text == null)
-    replace.Text = message.Text;
-    
+    var replace = messages.FirstOrDefault(m => m.Id == id);
+    if (replace == null)
+        return Results.NotFound("Такого сообщения не существует");
+
+    if (update.Author != null)
+        replace.Author = update.Author;
+
+    if (update.Text != null)
+        replace.Text = update.Text;
+
     return Results.NoContent();
     
 });
