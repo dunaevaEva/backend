@@ -88,3 +88,10 @@ public class Message
     public string Text { get; set; }
     
 }
+
+public class UpdateMessage
+{
+    public string Author { get; set; }
+    public string Text { get; set; }
+}
+
